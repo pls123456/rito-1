@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ボタn1.css">
+    <!-- haerder -->
+    <link rel="stylesheet" href="ボタン2.css">
+    <!-- main-content -->
+    <link rel="stylesheet" href="ボタン3.css">
+    <!-- sidebar -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+    <div class="haeder">
+        <form action="" id="form">
+            <h1>自作</h1>
+            <input type="text" placeholder="ここから選んで">
+        </form>
+    </div>
+
+    <div class="sidebar">
+        <div id="toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+
+        <div id="menu">
+            <ul class="ul">
+                <li>ノーマル</li>
+                <li>丸みを帯びた</li>
+                <li>円型</li>
+                <li>三角形</li>
+            </ul>
+        </div>
+        <script src="ボタン2.js "></script>
+    </div>
+
+    <div class="main-content">
+        <p class="main"><u>~ボタン一覧~</u></p>
+        <button class="btn1" id="btn1" style="margin-right: 20px;">
+            ノーマル
+        </button>
+
+        <button id="btn2" class='btn2' style="margin-right: 20px;">
+            丸みを帯びた
+        </button>
+
+        <button class="btn3" id="btn3" style="margin-right: 20px;">
+            丸
+        </button>
+        <!-- svgを使っている
+        <button class="btn4" id="btn4" style="margin-right: 20px; padding: 0; background: none; border: none;">
+            <svg width="90" height="90">  幅と高さを1.5倍に 
+        <polygon points="0,90 90,90 45,0" style="fill: rgb(255, 255, 255); stroke: black; stroke-width: 2;" />
+         stroke を追加 
+        <text x="50%" y="65%" dominant-baseline="middle" text-anchor="middle">三角形</text>
+        </svg>
+        </button>
+        -->
+        <script src="ボタン1.js "></script>
+    </div>
+
+
+</body>
+
+</html>

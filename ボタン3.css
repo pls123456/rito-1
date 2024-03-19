@@ -1,0 +1,50 @@
+    .sidebar {
+        width: 0px;
+        float: left;
+    }
+    
+    #toggle {
+        width: 30px;
+        height: 30px;
+        margin: 10px auto;
+    }
+    
+    #toggle div {
+        width: 100%;
+        height: 5px;
+        background: rgb(0, 0, 0);
+        margin: 4px auto;
+        transition: all 0.3s;
+        backface-visibility: hidden;
+    }
+    
+    #toggle.on .one {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    
+    #toggle.on .two {
+        opacity: 0;
+    }
+    
+    #toggle.on .three {
+        transform: rotate(-45deg) translate(7px, -8px);
+    }
+    
+    #menu {
+        background: rgb(0, 0, 0);
+        color: white;
+        border: 1px solid white;
+        width: 125px;
+        height: 600px;
+        padding: 10px;
+        border-radius: 3px;
+        font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+        line-height: 25px;
+        text-align: left;
+        margin: auto;
+        display: none;
+    }
+    
+    .ul li {
+        font-size: 10px;
+    }

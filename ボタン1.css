@@ -1,0 +1,18 @@
+    h1 {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        background-color: rgb(198, 192, 192);
+    }
+    
+    form {
+        text-align: center;
+    }
+    
+    body {
+        background-color: rgb(213, 213, 213);
+    }
+    
+    input[type="text"] {
+        width: 400px;
+        height: 25px;
+    }

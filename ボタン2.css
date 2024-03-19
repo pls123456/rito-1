@@ -1,0 +1,60 @@
+.main-content {
+    margin-left: 160px;
+}
+
+.main {
+    font-size: 25px
+}
+
+.btn1 {
+    width: 200px;
+    height: 50px;
+}
+
+.btn1.on {
+    background-color: rgb(253, 120, 120);
+}
+
+.btn1.off {
+    background-color: rgb(120, 120, 255);
+}
+
+.btn2 {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.btn2.on {
+    background-color: rgb(253, 120, 120);
+}
+
+.btn2.off {
+    background-color: rgb(120, 120, 255);
+}
+
+.btn3 {
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+}
+
+.btn3.on {
+    background-color: rgb(253, 120, 120);
+}
+
+.btn3.off {
+    background-color: rgb(120, 120, 255);
+}
+
+.btn4 {
+    margin-top: px;
+}
+
+.btn4.on {
+    background-color: rgb(253, 120, 120);
+}
+
+.btn4.off {
+    background-color: rgb(120, 120, 255);
+}
